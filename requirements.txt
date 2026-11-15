@@ -3,4 +3,5 @@ pandas
 numpy
 scipy
 statsmodels
+scikit-learn
 plotly
