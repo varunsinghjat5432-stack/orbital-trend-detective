@@ -95,5 +95,5 @@ orbital-trend-detective/
 ## 🤖 AI Assistance Disclosure & License
 * **AI Tool Disclosure:** Generative AI assistance was used during development to structure code documentation, debug CSV parsing edge cases, and format technical descriptions. All NASA satellite data acquisition, statistical testing, and architectural decisions were executed by **Team Fluid Edge Intelligence**.
 * **License:** Released under the **MIT License**.
-* Enter
+* 
 * 
