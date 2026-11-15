@@ -191,7 +191,7 @@ stat_df = data[["lst_clean", "aod_clean"]].diff().dropna()
 adf_p_lst = adfuller(stat_df["lst_clean"])[1]
 adf_p_aod = adfuller(stat_df["aod_clean"])[1]
 
-gc_res = grangercausalitytests(stat_df[["lst_clean", "aod_clean"]], maxlag=max_lag, verbose=False)
+
 gc_res = grangercausalitytests(stat_df[["lst_clean", "aod_clean"]], maxlag=max_lag)
 best_lag = min(gc_res.keys(), key=lambda k: gc_res[k][0]["ssr_ftest"][1])
 gc_f_stat, gc_p_val, _, _ = gc_res[best_lag][0]["ssr_ftest"]
